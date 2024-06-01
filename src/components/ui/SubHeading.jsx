@@ -4,16 +4,16 @@ const SubHeading = ({ title, textSize, textAlign, fontWeight }) => {
   let sizeClassName = "";
   switch (textSize) {
     case "small":
-      sizeClassName = "text-xl md:text-2xl";
+      sizeClassName = "text-xs md:text-sm py-2 md:py-2";
       break;
     case "medium":
-      sizeClassName = "text-2xl md:text-5xl";
+      sizeClassName = "text-lg md:text-xl py-2 md:py-2";
       break;
     case "large":
-      sizeClassName = "text-xl md:text-2xl";
+      sizeClassName = "text-xl md:text-2xl py-2 md:py-2";
       break;
     default:
-      sizeClassName = "text-base md:text-lg";
+      sizeClassName = "text-base md:text-lg py-2 md:py-2";
   }
 
   let fontWeightClassName = "";
@@ -37,7 +37,7 @@ const SubHeading = ({ title, textSize, textAlign, fontWeight }) => {
       fontWeightClassName = "font-semibold";
   }
 
-  const className = `${sizeClassName} ${fontWeightClassName} py-2 md:py-5 ${textAlign}`;
+  const className = `${sizeClassName} ${fontWeightClassName} ${textAlign}`;
 
   return <p className={className}>{title}</p>;
 };

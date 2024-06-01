@@ -1,20 +1,21 @@
 import PropTypes from "prop-types";
 
 const Heading = ({ title, mainheading, textSize, textAlign, fontWeight }) => {
-  console.log(textAlign)
+  console.log(textAlign);
+  
   let sizeClassName = "";
   switch (textSize) {
     case "small":
-      sizeClassName = "text-xl md:text-2xl";
+      sizeClassName = "text-2xl md:text-3xl py-2 md:py-2";
       break;
     case "medium":
-      sizeClassName = "text-2xl md:text-5xl";
+      sizeClassName = "text-2xl md:text-5xl py-2 md:py-2";
       break;
     case "large":
-      sizeClassName = "text-3xl md:text-7xl";
+      sizeClassName = "text-3xl md:text-7xl py-2 md:py-5";
       break;
     default:
-      sizeClassName = "text-3xl md:text-7xl";
+      sizeClassName = "text-3xl md:text-7xl py-2 md:py-5";
   }
 
   let fontWeightClassName = "";
@@ -32,7 +33,7 @@ const Heading = ({ title, mainheading, textSize, textAlign, fontWeight }) => {
       fontWeightClassName = "font-semibold";
   }
 
-  const className = `${sizeClassName} ${fontWeightClassName} py-2 md:py-2 ${textAlign}`;
+  const className = `${sizeClassName} ${fontWeightClassName} ${textAlign}`;
   if (mainheading) {
     return <h1 className={className}>{title}</h1>;
   } else {

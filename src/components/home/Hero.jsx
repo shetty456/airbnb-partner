@@ -18,13 +18,13 @@ const Hero = () => {
           fontWeight={"light"}
           textAlign={"text-center"}
         />
-        <section className="text-center">
+        <section className="text-center py-4">
           <button className="btn">Become and experienced Co-Host</button>
         </section>
       </section>
       <img
         src="https://a0.muscache.com/im/pictures/61515d98-08b6-4147-ba06-527f1fd5b943.jpg"
-        className="w-full h-[85vh] object-cover rounded-lg"
+        className="w-full md:h-[85vh] object-cover rounded-lg"
       />
     </ScreenLayout>
   );
