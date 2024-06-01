@@ -1,4 +1,5 @@
 import Criteria from "../components/home/Criteria";
+import Faq from "../components/home/Faq";
 import Hero from "../components/home/Hero";
 import Listing from "../components/home/Listing";
 import Partners from "../components/home/Partners";
@@ -13,6 +14,7 @@ const HomePage = () => {
       <Criteria />
       <Support />
       <Listing />
+      <Faq />
     </HomepageLayout>
   );
 };
