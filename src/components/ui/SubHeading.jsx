@@ -10,7 +10,7 @@ const SubHeading = ({ title, textSize, textAlign, fontWeight }) => {
       sizeClassName = "text-lg md:text-xl py-2 md:py-2";
       break;
     case "large":
-      sizeClassName = "text-xl md:text-2xl py-2 md:py-2";
+      sizeClassName = "text-base md:text-2xl py-2 md:py-2";
       break;
     default:
       sizeClassName = "text-base md:text-lg py-2 md:py-2";

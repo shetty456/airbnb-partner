@@ -28,9 +28,9 @@ const faqdata = [
 
 const Faq = () => {
   return (
-    <section className="py-4">
+    <section className="py-12">
       <ScreenLayout>
-        <section className="grid grid-cols-1 md:grid-cols-2 gap-2">
+        <section className="grid grid-cols-1 gap-2 md:grid-cols-2">
           <section className="pt-2">
           <Heading
             title="Frequently asked questions"

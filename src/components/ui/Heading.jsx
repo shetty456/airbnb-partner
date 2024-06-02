@@ -12,7 +12,7 @@ const Heading = ({ title, mainheading, textSize, textAlign, fontWeight }) => {
       sizeClassName = "text-2xl md:text-5xl py-2 md:py-2";
       break;
     case "large":
-      sizeClassName = "text-3xl md:text-7xl py-2 md:py-5";
+      sizeClassName = "text-4xl md:text-7xl py-2 md:py-5";
       break;
     default:
       sizeClassName = "text-3xl md:text-7xl py-2 md:py-5";

@@ -11,6 +11,7 @@ const Hero = () => {
           mainheading
           fontWeight={"bold"}
           textAlign={"text-center"}
+          textSize={"large"}
         />
         <SubHeading
           title="Many Hosts want an experienced Co-Host to help them with hosting. From cleaning to managing guests, partner with local Hosts to grow your earning potential on your own terms."
@@ -18,7 +19,7 @@ const Hero = () => {
           fontWeight={"light"}
           textAlign={"text-center"}
         />
-        <section className="text-center py-4">
+        <section className="py-4 text-center">
           <button className="btn">Become and experienced Co-Host</button>
         </section>
       </section>
